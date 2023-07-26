@@ -1,26 +1,3 @@
-'''
-n = int(input())
-inputs = []
-print(inputs)
-print(n)
-
-
-for _ in range(n):
-    inputs.append(input().split())
-    
-class Node():
-    def __init__(self,item):
-        self.data = item
-        self.left = None
-        self.right = None
-        
-def preorder(node):
-    print(node.item)
-'''
-    
-    
-    
-    
 n = int(input())
 inputs = []
 for _ in range(n):
